@@ -1,0 +1,143 @@
+* body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(243, 242, 242);
+  }
+  nav{
+    background-color: white;
+  }
+  ul {
+    overflow: hidden;
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  li {
+    float: left;
+  }
+  li a {
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+
+  }
+  #lalafo{
+    height: 45px;
+    width: 110px;
+  }
+  
+  .fa-bars{
+    position: absolute;
+    font-size: 25px;
+    padding: 15px 0 0 25px;
+    color: #969696;
+  
+  }
+
+  .business{
+    color:rgb(109, 109, 109);
+    font-size: 21px;
+    margin: 16px 0 0 50px;
+    transition: all 0.3s;
+  }
+  .business:hover{
+    opacity: 1;
+    color:rgb(37, 203, 37) ;
+  }
+  #love{
+    position: relative;
+    font-size: 25px;
+    margin: 12px 0 0 280px;
+    color: rgb(184, 184, 184);
+  }
+  .login{
+    color:dimgray;
+    font-size: 20px;
+    margin: 15px 0 0 20px;
+    transition: all 0.2s;
+  }
+  .login:hover{
+    opacity: 1;
+    color:rgb(37, 203, 37) ;
+  }
+  .announcement{
+    background-color:rgb(255, 0, 136) ;
+    color: white;
+    margin: 17px 0 0 30px;
+    height: 40px;
+    width: 140px;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0,8;
+    transition: all 0.8s;
+    cursor: pointer;
+  }
+  .announcement:hover{
+   background-color: rgb(229, 10, 127);
+  }
+  .cardProduct {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 550px;
+    height: 200px;
+    border: 1px solid rgb(229, 224, 224);
+    background-color: white;
+    border-radius: 8px;
+  }
+  .title {
+    padding-top: 20px;
+    margin-left: 230px;
+    color:  #0772d5;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .price {
+    display: block;
+    margin-left: 230px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .cardProduct > img {
+    float: left;
+    margin-top: -82px;
+    width: 190px;
+    height: 190px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    transition: all 0.3s;
+    transform: scale(1);
+  }
+  .cardProduct > img:hover{
+    transform: scale(1.1);
+  }
+  .call{
+    color:rgb(67, 201, 67);
+    font-weight: 700;
+    font-size: 20px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 13px;
+    cursor: pointer;
+  }
+
+  .fa-envelope{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -60px;
+    cursor: pointer;
+  }
+  .fa-heart{
+    position: absolute;
+    margin-left: 325px;
+    margin-top: -60px;
+    cursor: pointer;
+  }
+  
